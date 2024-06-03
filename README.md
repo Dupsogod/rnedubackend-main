@@ -4,23 +4,6 @@
 
 Этот проект представляет собой backend для системы RNedu, который обрабатывает назначения и обновления треков для агентов. 
 
-## Установка
-
-1. Склонируйте репозиторий:
-    ```bash
-    git clone https://github.com/Dupsogod/rnedubackend-main.git
-    ```
-2. Установите зависимости:
-    ```bash
-    cd rnedubackend-main
-    npm install
-    ```
-
-## Запуск
-
-1. Запустите сервер:
-    ```bash
-    npm start
     ```
 
 ## Структура проекта
@@ -93,15 +76,3 @@
 
 11. **RemoveCurPersonFromWebinarEvent(trackID, dayID, taskID, eventID)**
     - Удаляет агента из вебинара.
-
-## Зависимости
-
-- Node.js и npm
-- MongoDB
-- Express.js
-- Lodash
-- Axios
-
-## Лицензия
-
-Этот проект лицензирован под лицензией MIT.
